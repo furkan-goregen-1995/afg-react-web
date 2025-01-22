@@ -1,7 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
-
-module.exports = nextConfig
+module.exports = {
+  async rewrites() {
+      return [
+          {
+              source: "/api/:path*", // Frontend çağrısı
+              destination: "http://manager.afg-react-web.com.tr/:path*", // Backend (HTTP)
+          },
+      ];
+  },
+};
