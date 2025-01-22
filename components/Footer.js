@@ -15,7 +15,7 @@ export default function Footer() {
     const [footer,setFooter]=useState({slaytlar:[],iletisim:[],urunler:[],sayfalar:[]});
       
       useEffect(()=>{
-        fetch('http://localhost:8000/main/', {
+        fetch('http://manager.afg-react-web.com.tr/main/', {
           method: 'GET',
           credentials: 'include', // Çerezlerin gönderilmesini sağlar
           headers: {

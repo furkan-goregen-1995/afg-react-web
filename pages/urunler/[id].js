@@ -28,7 +28,7 @@ export default function Detay({id}) {
   const [urun,setUrun]=useState([]);
   
   useEffect(()=>{
-    fetch('http://admin.afg-react-web.com.tr/main/get-product/'+id, {
+    fetch('http://manager.afg-react-web.com.tr/main/get-product/'+id, {
       method: 'GET',
       credentials: 'include', // Çerezlerin gönderilmesini sağlar
       headers: {

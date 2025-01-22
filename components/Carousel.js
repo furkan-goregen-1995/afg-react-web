@@ -26,7 +26,7 @@ export default function Carousel({data,per,slug}) {
       onSlideChange={() => console.log('slide change')}
     >
         {data.map(d=>(
-            <SwiperSlide key={d.id}><img style={{height:500,width:"100%",objectFit:"contain"}} src={`http://localhost:8000/`+slug+`/`+d.image_path}/></SwiperSlide>
+            <SwiperSlide key={d.id}><img style={{height:500,width:"100%",objectFit:"contain"}} src={`http://manager.afg-react-web.com.tr/`+slug+`/`+d.image_path}/></SwiperSlide>
         ))}
     </Swiper>
     );
