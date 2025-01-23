@@ -18,7 +18,7 @@ export default function SayfaDetay({id}) {
   
   useEffect(()=>{
     
-    fetch('http://manager.afg-react-web.com.tr/main/get-page/'+id, {
+    fetch('https://manager.afg-react-web.com.tr/main/get-page/'+id, {
       method: 'GET',
       credentials: 'include', // Çerezlerin gönderilmesini sağlar
       headers: {

@@ -7,7 +7,7 @@ export default function Layout({children}) {
     <div>
         <Head>
           <title>AFG React Laravel Web App</title>
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
+        
         </Head>
         <Navbar/>
         {children}

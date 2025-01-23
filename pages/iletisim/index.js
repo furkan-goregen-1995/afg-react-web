@@ -16,7 +16,7 @@ export default function Iletisim() {
 const [iletisim,setIletisim]=useState([]);
 
 useEffect(()=>{
-  fetch('http://manager.afg-react-web.com.tr/main/contacts', {
+  fetch('https://manager.afg-react-web.com.tr/main/contacts', {
     method: 'GET',
     credentials: 'include', // Çerezlerin gönderilmesini sağlar
     headers: {
