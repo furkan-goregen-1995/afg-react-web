@@ -40,7 +40,7 @@ export default function Navbar() {
 
   
   useEffect(()=>{
-    fetch('https://manager.afg-react-web.com.tr/main/pages', {
+    fetch('https://admin.afg-react-web.com.tr/main/pages', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

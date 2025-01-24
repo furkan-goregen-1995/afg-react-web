@@ -14,7 +14,7 @@ export default function Urunler() {
 const [urunler,setUrunler]=useState([]);
 
 useEffect(()=>{
-  fetch('https://manager.afg-react-web.com.tr/main/products', {
+  fetch('http://admin.afg-react-web.com.tr/main/products', {
     method: 'GET',
     credentials: 'include', // Çerezlerin gönderilmesini sağlar
     headers: {
