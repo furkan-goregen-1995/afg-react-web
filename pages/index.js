@@ -10,7 +10,7 @@ export default function Home() {
   const [bilgiler,setBilgiler]=useState({slaytlar:[],iletisim:[],urunler:[],sayfalar:[]});
   
   useEffect(()=>{
-    fetch('http://admin.afg-react-web.com.tr/main/pages', {
+    fetch('https://admin.afg-react-web.com.tr/main/pages', {
       method: 'GET',
       credentials: 'include', // Çerezlerin gönderilmesini sağlar
       headers: {
