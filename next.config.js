@@ -3,7 +3,7 @@ module.exports = {
       return [
           {
               source: "/api/:path*", // Frontend çağrısı
-              destination: "http://manager.afg-react-web.com.tr/:path*", // Backend (HTTP)
+              destination: "https://admin.afg-react-web.com.tr/:path*", // Backend (HTTP)
           },
       ];
   },

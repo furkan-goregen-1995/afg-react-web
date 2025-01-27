@@ -42,7 +42,7 @@ console.log(urun);
     <div className={styles.container} style={{marginTop:50}}>
       <Grid container>
         <Grid item xs={6}>
-        <Item><img style={{width:"100%", height:400,objectFit:"contain"}} src={`http://localhost:8000/products/`+urun.image_path}/></Item>
+        <Item><img style={{width:"100%", height:400,objectFit:"contain"}} src={`https://admin.afg-react-web.com.tr/products/`+urun.image_path}/></Item>
         </Grid>
         <Grid item xs={6}>
           <List

@@ -29,14 +29,14 @@ export default function SayfaDetay({id}) {
 
   return (
     <div className={styles.container} style={{marginTop:50}}>
-      <div><img style={{height:150,width:"100%",objectFit:"contain"}} src={`http://localhost:8000/pages/`+sayfa.page.image_path}/></div>
+      <div><img style={{height:150,width:"100%",objectFit:"contain"}} src={`https://admin.afg-react-web.com.tr/pages/`+sayfa.page.image_path}/></div>
       <h1 className={styles.title}>{sayfa.page.title}</h1>
       <p>{sayfa.page.description}</p>
       <Grid container spacing={2}>
       {sayfa.gallery && sayfa.gallery.map((item) => (
           <Grid item xs={2} key={item.id} >
-          <motion.div style={{marginTop:10}} className="img-wrap" layout whileHover={{opacity:1}} onClick={()=>setSelectedImage(`http://localhost:8000/photos/`+item.image_path)}>
-            <motion.img style={{width:"100%",height:250,objectFit:"cover"}} initial={{opacity:0}} animate={{opacity:1}} src={`http://localhost:8000/photos/`+item.image_path} alt="yuklendi"/>
+          <motion.div style={{marginTop:10}} className="img-wrap" layout whileHover={{opacity:1}} onClick={()=>setSelectedImage(`https://admin.afg-react-web.com.tr/photos/`+item.image_path)}>
+            <motion.img style={{width:"100%",height:250,objectFit:"cover"}} initial={{opacity:0}} animate={{opacity:1}} src={`https://admin.afg-react-web.com.tr/photos/`+item.image_path} alt="yuklendi"/>
           </motion.div>
           </Grid>
        

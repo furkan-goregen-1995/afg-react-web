@@ -38,7 +38,7 @@ useEffect(()=>{
               component="img"
               alt="green iguana"
               height="250"
-              image={`http://manager.afg-react-web.com.tr/products/`+b.image_path}
+              image={`https://admin.afg-react-web.com.tr/products/`+b.image_path}
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
