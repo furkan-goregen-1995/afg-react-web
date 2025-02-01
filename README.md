@@ -5,3 +5,7 @@
 # Live Link
 
 <a target="_blank" href="https://afg-react-web.com.tr/"> Live preview </a>
+
+# Management Panel Link
+
+<a target="_blank" href="https://admin.afg-react-web.com.tr/login"> Panel preview </a>
